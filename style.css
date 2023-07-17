@@ -1,0 +1,84 @@
+body{
+  background-image:linear-gradient(to bottom right, rgb(31, 31, 30)15%, rgb(72, 72, 74)85%) ;
+}
+.full_calc{
+    border-radius: 25px;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(42, 43, 45);
+    box-shadow: 5px 5px 6px 1px rgb(0, 0, 0);
+
+}
+
+.display{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+
+}
+
+.input_display {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-left: 5%;
+    border-radius: 25px;
+    text-align: end;
+    font-size: 50px;
+    background-color:rgb(44, 44, 44) ;
+    color: white;
+    padding: 10px;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+.keyboard{
+  width: 90%;
+  height: 65%;
+  margin: auto;
+  margin-top: 40px;
+  /* border: 4px red dashed; */
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px 70px;
+
+}
+
+.number_key{
+  
+  width: 60px;
+  height: 40px;
+  margin: auto;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 30%;
+  font-size: 24px;
+
+
+}
+.operator_key{
+  background-color: darkred;
+  color: rgb(255, 255, 255);
+}
+
+.number_key:hover{
+  background-color: rgba(0, 0, 81, 0.426);
+  color: rgb(0, 217, 255);
+  box-shadow: 5px 5px 6px 1px rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 26px;
+
+
+}
